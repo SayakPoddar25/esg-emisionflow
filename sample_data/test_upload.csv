@@ -1,0 +1,8 @@
+source,date,unit,value
+sap,2026-05-01,kgCO2,120
+sap,2026-05-02,kgCO2,340
+sap,2026-05-03,kgCO2,220
+utility,2026-05-04,kWh,560
+utility,2026-05-05,kWh,780
+travel,2026-05-06,km,85
+travel,2026-05-07,km,150

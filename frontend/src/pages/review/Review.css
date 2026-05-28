@@ -1,0 +1,9 @@
+.review-page {
+    padding: 30px;
+  }
+  
+  .review-page h1 {
+    margin-bottom: 20px;
+    color: rgb(0, 59, 148);
+    user-select:none;
+  }

@@ -1,0 +1,217 @@
+.table-wrapper{
+
+  width: 95%;
+
+  margin: 40px auto;
+
+  padding: 30px;
+
+  background: #ffffff;
+
+  border-radius: 30px;
+
+  box-shadow:
+    0 10px 35px
+    rgba(0,0,0,0.08);
+
+  overflow-x: auto;
+}
+
+table{
+
+  width: 100%;
+
+  border-collapse:
+    collapse;
+}
+
+thead{
+
+  background:
+    linear-gradient(
+      135deg,
+      #004297,
+      #00396e
+    );
+
+  color: white;
+  user-select:none;
+}
+
+thead th{
+
+  padding: 22px;
+
+  font-size: 17px;
+
+  font-weight: 700;
+
+  text-align: left;
+}
+
+thead th:first-child{
+  border-top-left-radius:
+    18px;
+}
+
+thead th:last-child{
+  border-top-right-radius:
+    18px;
+}
+
+tbody tr{
+
+  border-bottom:
+    1px solid
+    #e5e7eb;
+
+  transition:
+    all 0.25s ease;
+}
+
+tbody tr:hover{
+
+  background:
+    #f8fbff;
+
+  transform:
+    scale(1.01);
+}
+
+tbody td{
+
+  padding: 22px;
+
+  font-size: 15px;
+
+  font-weight: 500;
+
+  color: #012969;
+
+  user-select: none;
+}
+
+/* status styling */
+
+tbody td:nth-child(5){
+
+  font-weight: 700;
+}
+
+/* buttons */
+
+.approve-btn{
+
+  border: none;
+
+  padding:
+    12px 18px;
+
+  border-radius:
+    14px;
+
+  cursor: pointer;
+
+  background:
+    linear-gradient(
+      135deg,
+      #16a34a,
+      #15803d
+    );
+
+  color: white;
+
+  font-weight: 700;
+
+  margin-right: 12px;
+
+  transition:
+    all 0.3s ease;
+
+  box-shadow:
+    0 6px 18px
+    rgba(22,163,74,0.25);
+}
+
+.approve-btn:hover{
+
+  transform:
+    translateY(-3px);
+
+  box-shadow:
+    0 12px 24px
+    rgba(22,163,74,0.35);
+}
+
+.reject-btn{
+
+  border: none;
+
+  padding:
+    12px 18px;
+
+  border-radius:
+    14px;
+
+  cursor: pointer;
+
+  background:
+    linear-gradient(
+      135deg,
+      #dc2626,
+      #b91c1c
+    );
+
+  color: white;
+
+  font-weight: 700;
+
+  transition:
+    all 0.3s ease;
+
+  box-shadow:
+    0 6px 18px
+    rgba(220,38,38,0.25);
+}
+
+.reject-btn:hover{
+
+  transform:
+    translateY(-3px);
+
+  box-shadow:
+    0 12px 24px
+    rgba(220,38,38,0.35);
+}
+
+/* responsive */
+
+@media(max-width:768px){
+
+  .table-wrapper{
+
+    width: 95%;
+
+    padding: 18px;
+
+    border-radius:
+      20px;
+  }
+
+  thead th,
+  tbody td{
+
+    padding: 14px;
+
+    font-size: 14px;
+  }
+
+  .approve-btn,
+  .reject-btn{
+
+    width: 100%;
+
+    margin-bottom:
+      10px;
+  }
+}
